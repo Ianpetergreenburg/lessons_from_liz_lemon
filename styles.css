@@ -7,7 +7,6 @@ body {
 }
 
 img {
-	padding:auto;
 	vertical-align: bottom;
 }
 
@@ -59,7 +58,7 @@ header.title {
 
 img#firstpic {
 	margin-top: 150px;
-	float: center;
+	margin-left: 200px;
 }
 
 a:visited { color:navy; }
@@ -85,5 +84,5 @@ nav#tnav {
 @media handheld {
 	img {
 		width: 300px;
-	}
+}
 }

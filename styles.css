@@ -1,0 +1,48 @@
+body {
+	font-family: Helvetica;
+	max-width: 1000px;
+	min-width:800px;
+	margin:auto;
+	background-image: url("https://cdn-img-2.wanelo.com/p/2a1/c2a/595/1f815ba4ddf6286b3c091ab/x354-q80.jpg");
+}
+
+img {
+	padding:auto;
+	vertical-align: bottom;
+}
+
+td {
+	text-align:center;
+}
+
+table {
+	min-width: 800px;
+	background-color: white;
+}
+
+section{
+	background-color: white;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: black;
+	padding:25px;
+}
+
+section 
+
+header.title {
+	background-color: white;
+	position: fixed;
+	top-margin:0px;
+	width:100%;
+	text-align:center;
+}
+
+main {
+	top-margin: 150px;
+}
+img#firstpic {
+	margin-top: 150px;
+}
+
+a:visited { color:navy; }

@@ -18,6 +18,19 @@ td {
 table {
 	min-width: 800px;
 	background-color: white;
+	margin:auto;
+	z-index: 1;
+	display:block;
+	margin-bottom: 50px;
+}
+
+main#teachings {
+	position: absolute;
+	top:150px;
+}
+
+main {
+
 }
 
 section{
@@ -28,21 +41,49 @@ section{
 	padding:25px;
 }
 
-section 
+
 
 header.title {
 	background-color: white;
 	position: fixed;
-	top-margin:0px;
 	width:100%;
 	text-align:center;
+	font-family: Georgia;
+	border-bottom-style: solid;
+	border-width: 1px;
+	z-index: 3;
+	top: 0px;
+	right: 0px;
 }
 
-main {
-	top-margin: 150px;
-}
+
 img#firstpic {
 	margin-top: 150px;
+	float: center;
 }
 
 a:visited { color:navy; }
+
+nav {
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	width: 100%;
+	right:0px;
+	bottom: 0px;
+	text-align: center;
+	vertical-align: bottom;
+	position:relative;
+	font-size: 1em;
+}
+
+nav#tnav {
+	position: absolute;
+	top: 1450px
+}
+
+@media handheld {
+	img {
+		width: 300px;
+	}
+}
